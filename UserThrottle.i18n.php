@@ -258,6 +258,15 @@ $messages['id'] = array(
 Coba lagi setelah beberapa saat dan klik 'reload' di penjelajah Anda untuk mengirim ulang.",
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'userthrottle-desc' => 'Rallenta la creazione di utenti',
+	'acct_creation_global_hard_throttle_hit' => 'La creazione di account è stata sospesa automaticamente per pochi secondi per ridurre attacchi flood alle registrazioni.
+Si prega di attendere un momento e premere "ricaricare" nel tuo browser per inviare di nuovo la richiesta.',
+);
+
 /** Japanese (日本語)
  * @author Fryed-peach
  */
