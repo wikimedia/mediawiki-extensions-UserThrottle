@@ -269,10 +269,12 @@ Si prega di attendere un momento e premere "ricaricare" nel tuo browser per invi
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'userthrottle-desc' => 'アカウント作成数を制限する',
-	'acct_creation_global_hard_throttle_hit' => '登録サービス不能攻撃を減少させるため、アカウント作成は自動的にしばらく停止されています。しばらく待ってから、ブラウザの再読み込みボタンを押して再送信してください。',
+	'acct_creation_global_hard_throttle_hit' => '登録サービス不能攻撃を軽減させるため、アカウント作成は自動的にしばらく停止されています。
+しばらく待ってから、ブラウザーの再読み込みボタンを押して再送信してください。',
 );
 
 /** Javanese (Basa Jawa)
