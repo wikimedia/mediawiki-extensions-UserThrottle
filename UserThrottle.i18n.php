@@ -51,7 +51,7 @@ $messages['arz'] = array(
 من فضلك انتظر لحظة واضغط 'reload' فى متصفحك لإعادة التنفيذ.",
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -78,14 +78,14 @@ $messages['be-tarask'] = array(
 Калі ласка, пачакайце і націсьніце кнопку «Абнавіць» у Вашым браўзэры, каб паспрабаваць ізноў.',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
 	'userthrottle-desc' => 'Създаването на сметки беше автоматично спряно за малко заради необичайно големия брой опити за влизане. Изчакайте няколко минути и опитайте отново.',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -94,7 +94,7 @@ $messages['br'] = array(
 Gortozit un tamm ha klikit war "adkargañ" en ho merdeer evit gellout goulenn en-dro.',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -103,7 +103,7 @@ $messages['bs'] = array(
 Molimo sačekajte trenutak i kliknite 'Reload' u pregledniku kako bi poslali ponovno.",
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
@@ -152,7 +152,7 @@ $messages['eo'] = array(
 	'acct_creation_global_hard_throttle_hit' => "Konto-kreado estas aŭtomate haltigita momente por malkreski atakojn de registrado-inundo. Bonvolu atenti momenton kaj klaki 'reŝarĝu' en via retumilo por resendi.",
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Manuelt15
  */
@@ -170,7 +170,7 @@ $messages['fa'] = array(
 لطفاً چند لحظه صبر کنید و برای ارسال مجدد دکمه «بارگذاری مجدد صفحه» را در مرورگرتان بزنید.',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Mobe
  * @author Nike
  */
@@ -180,7 +180,7 @@ $messages['fi'] = array(
 Ole hyvä ja odota hetki. Päivitä avoin sivu selaimessa ja lähetä lomake uudelleen.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author Urhixidur
  */
@@ -189,7 +189,7 @@ $messages['fr'] = array(
 	'acct_creation_global_hard_throttle_hit' => 'La création a été automatiquement suspendue pendant quelques secondes afin de limiter les attaques informatiques par enregistrement en masse de nouveaux comptes. Patientez un moment et cliquez sur « recharger » ou « actualiser » dans votre navigateur pour soumettre, une nouvelle fois, la demande.',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -231,7 +231,7 @@ $messages['hsb'] = array(
 	'acct_creation_global_hard_throttle_hit' => "Wutworjenje wužiwarskich kontow bu za něšto sekundow zastajene, zo by so nawal registrowanjow redukował. Prošu počakaj wokomik a klikń na 'Znowa' we swojim wobhladowaku, zo by hišće raz spytał.",
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -240,7 +240,7 @@ $messages['hu'] = array(
 Kérlek várj egy percet, majd nyomd meg az „újratöltés” gombot a böngésződben az újbóli elküldéshez.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -313,7 +313,7 @@ $messages['lb'] = array(
 Waart w.e.g. een Ament an dréckt da 'reload' an ärem Browser fir et nach eml ze schécken.",
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -358,7 +358,7 @@ $messages['nl'] = array(
 	'acct_creation_global_hard_throttle_hit' => "Het aanmaken van gebruikers is automatisch geblokkeerd voor enkele seconden om een overvloed aan registraties te verminderen. Gelieve even te wachten en klik dan op 'herladen' in uw browser om u opnieuw proberen te registreren.",
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Frokor
  */
 $messages['nn'] = array(
@@ -366,7 +366,7 @@ $messages['nn'] = array(
 	'acct_creation_global_hard_throttle_hit' => 'Kontoopretting er slått av automatisk i nokre sekund for å redusere masseregistreringsåtak. Vent ei lita stund og trykk «oppdater» i nettlesaren din for å prøve igjen.',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -374,7 +374,7 @@ $messages['oc'] = array(
 	'acct_creation_global_hard_throttle_hit' => "La creacion es estada suspendida automaticament pendent qualques segondas per limitar los atacs informatics per l'enregistrament en massa de comptes novèls. Pacientatz un moment e clicatz sus « recargar » dins vòstre navigador per sometre, un còp de mai, la demanda.",
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -392,7 +392,7 @@ $messages['pms'] = array(
 Për piasì speta un moment e fà 'reload' an tò browser për torna prové.",
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
@@ -403,7 +403,7 @@ $messages['pt'] = array(
 Por favor, aguarde um momento e carregue em 'refrescar' no seu browser para reenviar os dados.",
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -412,7 +412,7 @@ $messages['pt-br'] = array(
 Por favor, aguarde um momento e clique em 'atualizar' no seu navegador para reenviar os dados.",
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -421,7 +421,7 @@ $messages['roa-tara'] = array(
 Pe piacere aspitte 'nu mumende e cazze 'recareche' sus a 'u browser tue pe risottomettere.",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -430,7 +430,7 @@ $messages['ru'] = array(
 Пожалуйста, подождите немного и попробуйте нажать кнопку «Обновить» вашего браузера.',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -438,7 +438,7 @@ $messages['sk'] = array(
 	'acct_creation_global_hard_throttle_hit' => 'Tvorba účtov bola na niekoľko sekúnd automaticky vypnutá z dôvodu zabránenia útokom hromadnej registrácie. Prosím, chvíľu počkajte a znovu odošlite formulár stlačením tlačidla „Znovu načítať“ vo vašom prehliadači.',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -447,7 +447,7 @@ $messages['sr-ec'] = array(
 Молимо Вас да мало сачекате и притиснете дугме за освежавање у вашем браузеру, да бисте опет послали податке.',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -464,7 +464,7 @@ $messages['stq'] = array(
 	'acct_creation_global_hard_throttle_hit' => 'Ju Muugelkhaid tou dät Moakjen fon Benutserkonten wuude foar eenige Sekonden unnerbreeken, uum ne Floud fon Registrierengen tou reduzierjen. Täiw n Sät un tai dan dän Näileede-Knoop an dien Browser.',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author M.M.S.
  */
 $messages['sv'] = array(
@@ -514,7 +514,7 @@ $messages['vo'] = array(
 	'userthrottle-desc' => 'Kalijaf pablokon itjäfidiko dü timüls anik bi brefabüo edabinons ninädamasteifüls tu mödiks. Stebedolös dü minuts anik e steifülolös nogna.',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Liangent
  */
 $messages['zh-hans'] = array(
@@ -522,7 +522,7 @@ $messages['zh-hans'] = array(
 	'acct_creation_global_hard_throttle_hit' => '因为受到短时间内注册大量账号的攻击，账号注册被自动暂停。请稍等片刻后点击浏览器的“刷新”按钮重新提交。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Mark85296341
  */
