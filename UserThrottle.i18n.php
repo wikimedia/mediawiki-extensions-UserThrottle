@@ -67,7 +67,7 @@ $messages['bar'] = array(
 	'userthrottle-desc' => 'Neiãnmöidungen drossln',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -128,7 +128,7 @@ Bitte warten Sie einige Minuten und versuchen Sie es dann erneut.',
 	'acct_creation_global_hard_throttle_hit' => 'Die Möglichkeit zur Erstellung von Benutzerkonten wurde für einige Sekunden unterbrochen, um eine Flut von Registrierungen zu reduzieren. Bitte warten Sie einen Moment und drücken Sie dann die Neuladen-Schaltfläche an Ihrem Browser.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -196,7 +196,7 @@ $messages['frp'] = array(
 	'userthrottle-desc' => 'Limite la crèacion d’usanciérs.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -223,7 +223,7 @@ $messages['he'] = array(
 אנא המתינו רגע ולחצו על "רענן" בדפדפן שלכם כדי לנסות שנית.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -340,9 +340,7 @@ $messages['ms'] = array(
 Sila tunggu sebentar, kemudian tekan "muat semula" (refresh/reload) pada pelayar anda untuk menghantar semula.',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'userthrottle-desc' => 'Begrenser antall kontoer som kan opprettes i en tidsperiode',
 	'acct_creation_global_hard_throttle_hit' => 'Kontoopretting har blitt slått av automatisk i noen sekunder for å redusere masseregistreringsangrep. Vent en liten stund og trykk «oppdater» i nettleseren din for å prøve igjen.',
