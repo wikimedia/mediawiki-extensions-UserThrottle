@@ -285,6 +285,13 @@ $messages['jv'] = array(
 	'acct_creation_global_hard_throttle_hit' => "Panggawéyan rékening anyar dipenggak sacara otomatis kanggo sawetara detik kanggo ngurangi serangan banjiran régistrasi. Tulung ditunggu sawetara dhisik lan pencèten tombol 'reload' ing panjlajah wèb panjenengan kanggo ngirim manèh.",
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'userthrottle-desc' => 'მომხმარებლების რეგისტრაციის შეზღუდვა',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  * @author 아라
