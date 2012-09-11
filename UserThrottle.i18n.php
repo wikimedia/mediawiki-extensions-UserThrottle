@@ -299,7 +299,7 @@ $messages['ka'] = array(
 $messages['ko'] = array(
 	'userthrottle-desc' => '계정 만들기 속도 제한',
 	'acct_creation_global_hard_throttle_hit' => '대규모 계정 등록 공격을 방지하기 위해 잠시 계정 만들기가 자동적으로 중지되었습니다.
-계정 만들기를 계속하려면 잠시 기다린 후에 "새로고침"을 눌러주십시오.',
+계정 만들기를 계속하려면 잠시 기다린 후에 "새로 고침"을 누르세요.',
 );
 
 /** Colognian (Ripoarisch)
