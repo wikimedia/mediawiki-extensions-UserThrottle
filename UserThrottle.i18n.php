@@ -162,6 +162,13 @@ $messages['es'] = array(
 Por favor espere un momento y presione 'Recargar' en su navegador para reenviar.",
 );
 
+/** Estonian (eesti)
+ * @author Morel
+ */
+$messages['et'] = array(
+	'acct_creation_global_hard_throttle_hit' => 'Konto loomine on mõneks sekundiks automaatselt peatatud, et vältida massregistreerimisrünnakuid. Palun oota hetk ja uuenda siis brauseri lehekülge.',
+);
+
 /** Persian (فارسی)
  * @author Huji
  */
