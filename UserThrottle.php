@@ -86,19 +86,21 @@ function throttleGlobalHit( $user ) {
 function throttleSoftAbort( $interval, $limit ) {
 	global $wgOut;
 	throttleDebug( "softAbort: hit soft_limit $limit in soft_time $interval", true );
-	$wgOut->addWikiText( wfMsg( 'acct_creation_global_soft_throttle_hit', $interval, $limit ) );
+	$wgOut->addWikiText( wfMessage( 'acct_creation_global_soft_throttle_hit', $interval, $limit )->text() );
 	return false;
 }
 
 function throttleHardAbort( $interval ) {
 	global $wgOut;
 	throttleDebug( "hardAbort: hit min_interval $interval", true );
-	$wgOut->addWikiText( wfMsg( 'acct_creation_global_hard_throttle_hit', $interval ) );
+	$wgOut->addWikiText( wfMessage( 'acct_creation_global_hard_throttle_hit', $interval )->text() );
 	return false;
 }
 
 function throttleDebug( $text, $full = false ) {
-	$info = '[IP: ' . wfGetIP() . ']';
+	global $wgRequest;
+
+	$info = '[IP: ' . $wgRequest->getIP() . ']';
 	if ( function_exists( 'getallheaders' ) ) {
 		$info .= '[headers: ' . implode( ' | ', array_map( 'urlencode', getallheaders() ) ) . ']';
 	}

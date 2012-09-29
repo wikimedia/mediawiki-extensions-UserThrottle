@@ -9,8 +9,6 @@
 $messages = array();
 
 $messages['en'] = array(
-	'userthrottle-desc' => 'Account creation has been automatically suspended for a few moments due to an unusually large number of recent login attempts.
-Please wait a few minutes and try again.',
 	'acct_creation_global_hard_throttle_hit' => "Account creation has been automatically suspended for a few seconds to reduce registration flood attacks.
 Please wait a moment and hit \"reload\" in your browser to resubmit.",
 	'userthrottle-desc' => 'Throttle user creation',
@@ -21,6 +19,7 @@ Please wait a moment and hit \"reload\" in your browser to resubmit.",
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
+	'acct_creation_global_hard_throttle_hit' => 'Error message displayed when trying to create too many user accounts in a given time frame.',
 	'userthrottle-desc' => '{{desc}}',
 );
 
