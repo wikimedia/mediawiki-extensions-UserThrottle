@@ -67,7 +67,7 @@ $messages['bar'] = array(
 	'userthrottle-desc' => 'Neiãnmöidungen drossln',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -119,7 +119,7 @@ $messages['de'] = array(
 	'acct_creation_global_hard_throttle_hit' => 'Die Möglichkeit zur Erstellung von Benutzerkonten wurde für einige Sekunden unterbrochen, um eine Flut von Registrierungen zu reduzieren. Bitte warte einen Moment und drücke dann die Neuladen-Schaltfläche an deinem Browser.',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Raimond Spekking
  */
 $messages['de-formal'] = array(
@@ -355,7 +355,7 @@ $messages['ms'] = array(
 Sila tunggu sebentar, kemudian tekan "muat semula" (refresh/reload) pada pelayar anda untuk menghantar semula.',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'userthrottle-desc' => 'Begrenser antall kontoer som kan opprettes i en tidsperiode',
 	'acct_creation_global_hard_throttle_hit' => 'Kontoopretting har blitt slått av automatisk i noen sekunder for å redusere masseregistreringsangrep. Vent en liten stund og trykk «oppdater» i nettleseren din for å prøve igjen.',
@@ -371,7 +371,7 @@ $messages['nl'] = array(
 	'acct_creation_global_hard_throttle_hit' => "Het aanmaken van gebruikers is automatisch geblokkeerd voor enkele seconden om een overvloed aan registraties te verminderen. Gelieve even te wachten en klik dan op 'herladen' in uw browser om u opnieuw proberen te registreren.",
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Frokor
  */
 $messages['nn'] = array(
@@ -451,7 +451,7 @@ $messages['sk'] = array(
 	'acct_creation_global_hard_throttle_hit' => 'Tvorba účtov bola na niekoľko sekúnd automaticky vypnutá z dôvodu zabránenia útokom hromadnej registrácie. Prosím, chvíľu počkajte a znovu odošlite formulár stlačením tlačidla „Znovu načítať“ vo vašom prehliadači.',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -460,7 +460,7 @@ $messages['sr-ec'] = array(
 Молимо Вас да мало сачекате и притиснете дугме за освежавање у вашем браузеру, да бисте опет послали податке.',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -527,7 +527,7 @@ $messages['vo'] = array(
 	'userthrottle-desc' => 'Kalijaf pablokon itjäfidiko dü timüls anik bi brefabüo edabinons ninädamasteifüls tu mödiks. Stebedolös dü minuts anik e steifülolös nogna.',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Liangent
  */
 $messages['zh-hans'] = array(
@@ -535,7 +535,7 @@ $messages['zh-hans'] = array(
 	'acct_creation_global_hard_throttle_hit' => '因为受到短时间内注册大量账号的攻击，账号注册被自动暂停。请稍等片刻后点击浏览器的“刷新”按钮重新提交。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Mark85296341
  */
