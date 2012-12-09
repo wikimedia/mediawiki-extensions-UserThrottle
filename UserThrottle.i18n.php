@@ -511,6 +511,15 @@ Lütfen birkaç dakika bekleyin ve yeniden göndermek için tarayıcınızdaki '
 	'userthrottle-desc' => 'Kullanıcı oluşturmayı önler',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'acct_creation_global_hard_throttle_hit' => 'Створення облікового запису було автоматично призупинено на декілька секунд, для запобігання можливості атаки, заснованої на масових реєстраціях.
+Будь ласка, зачекайте трішки і спробуйте натиснути кнопку «Оновити» Вашого браузеру.',
+	'userthrottle-desc' => 'Обмеження на створення нових облікових записів',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Vinhtantran
  */
