@@ -444,6 +444,13 @@ $messages['ru'] = array(
 	'userthrottle-desc' => 'Ограничение регистрации участников',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'userthrottle-desc' => 'අවකර පරිශීලක නිර්මාණය',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
@@ -522,11 +529,12 @@ $messages['uk'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
  * @author Vinhtantran
  */
 $messages['vi'] = array(
-	'acct_creation_global_hard_throttle_hit' => "Việc tạo tài khoản đã được tự động tạm ngưng trong giây lát để giảm sự tấn công gây tràn qua việc đăng ký tài khoản.
-Xin hãy đợi trong ít phút rồi nhấn 'reload' trong trình duyệt để đăng lên lại.",
+	'acct_creation_global_hard_throttle_hit' => 'Việc tạo tài khoản đã được tự động tạm ngưng trong giây lát để giảm sự tấn công gây tràn qua việc mở tài khoản.
+Xin hãy đợi trong ít phút rồi nhấn “Tải lại” (Reload) trong trình duyệt để đăng lên lại.',
 	'userthrottle-desc' => 'Nút cổ chai khi tạo tài khoản',
 );
 
