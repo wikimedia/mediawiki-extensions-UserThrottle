@@ -238,11 +238,12 @@ $messages['hsb'] = array(
 );
 
 /** Hungarian (magyar)
+ * @author Bináris
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
-	'acct_creation_global_hard_throttle_hit' => 'Felhasználói fiókok készítése automatikusan szüneteltetve pár másodpercig, hogy csökkentsük a tömeges regisztrációs támadásokat.
-Kérlek várj egy percet, majd nyomd meg az „újratöltés” gombot a böngésződben az újbóli elküldéshez.',
+	'acct_creation_global_hard_throttle_hit' => 'A felhasználói fiókok készítését automatikusan szüneteltetjük pár másodpercig, hogy csökkentsük a tömeges regisztrációs támadásokat.
+Kérlek, várj egy kicsit, majd nyomd meg az „újratöltés” gombot a böngésződben az újbóli elküldéshez.',
 	'userthrottle-desc' => 'Felhasználói fiókok készítésének szabályozása',
 );
 
