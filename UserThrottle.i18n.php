@@ -16,11 +16,12 @@ Please wait a moment and hit \"reload\" in your browser to resubmit.",
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
 	'acct_creation_global_hard_throttle_hit' => 'Error message displayed when trying to create too many user accounts in a given time frame.',
-	'userthrottle-desc' => '{{desc}}',
+	'userthrottle-desc' => '{{desc|name=User Throttle|url=http://www.mediawiki.org/wiki/Extension:UserThrottle}}',
 );
 
 /** Gheg Albanian (Gegë)
