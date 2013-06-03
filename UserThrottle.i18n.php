@@ -356,7 +356,7 @@ Sila tunggu sebentar, kemudian tekan "muat semula" (refresh/reload) pada pelayar
 	'userthrottle-desc' => 'Mendikit pembukaan akaun pengguna',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'acct_creation_global_hard_throttle_hit' => 'Kontoopretting har blitt slått av automatisk i noen sekunder for å redusere masseregistreringsangrep. Vent en liten stund og trykk «oppdater» i nettleseren din for å prøve igjen.',
@@ -374,7 +374,7 @@ Wacht even en klik dan op "Huidige pagina vernieuwen" in uw browser om het opnie
 	'userthrottle-desc' => 'Aanmaken gebruikers beperken',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Frokor
  */
 $messages['nn'] = array(
