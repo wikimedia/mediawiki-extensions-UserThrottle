@@ -103,7 +103,7 @@ Molimo sačekajte trenutak i kliknite 'Reload' u pregledniku kako bi poslali pon
 	'userthrottle-desc' => 'Ograničavanje pravljenja korisničkog računa',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
