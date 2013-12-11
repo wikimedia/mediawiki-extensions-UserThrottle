@@ -111,6 +111,14 @@ $messages['cs'] = array(
 	'userthrottle-desc' => 'Omezí rychlost vytváření uživatelských účtů',
 );
 
+/** Danish (dansk)
+ * @author Christian List
+ */
+$messages['da'] = array(
+	'acct_creation_global_hard_throttle_hit' => 'Kontooprettelse er suspenderet automatisk i et par sekunder for at reducere masseregistreringsangreb.
+Venligst vente et øjeblik og tryk "opdater" i din browser for at prøve igen.',
+);
+
 /** German (Deutsch)
  * @author Raimond Spekking
  */
