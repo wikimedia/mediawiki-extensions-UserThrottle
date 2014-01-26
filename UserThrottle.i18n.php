@@ -455,6 +455,14 @@ $messages['ru'] = array(
 	'userthrottle-desc' => 'Ограничение регистрации участников',
 );
 
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
+ * @author Kolega2357
+ */
+$messages['sh'] = array(
+	'acct_creation_global_hard_throttle_hit' => 'Pravljenje naloga je automatski suspendovano na nekoliko sekundi, da bi umanjilo broj napada brojnim registracijama.
+Molimo Vas da malo sačekate i pritisnete dugme za osvežavanje u vašem brauzeru, da biste opet poslali podatke.',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
