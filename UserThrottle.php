@@ -28,7 +28,7 @@
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
-	'version'     => '0.2',
+	'version'     => '0.3.0',
 	'name' => 'UserThrottle',
 	'author' => 'Brion Vibber',
 	'descriptionmsg' => 'userthrottle-desc',
@@ -37,7 +37,8 @@ $wgExtensionCredits['other'][] = array(
 
 $wgHooks['AbortNewAccount'][] = 'throttleGlobalHit';
 $dir = dirname( __FILE__ ) . '/';
-$wgExtensionMessagesFiles['AbortNewAccount'] = $dir . 'UserThrottle.i18n.php';
+$wgMessagesDirs['UserThrottle'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['UserThrottle'] = $dir . 'UserThrottle.i18n.php';
 
 $wgGlobalAccountCreationThrottle = array(
 	'min_interval' => 5,   // Hard minimum time between creations
