@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Omnipaedista"
-        ]
-    },
-    "userthrottle-desc": "Παρεμπόδιση δημιουργίας χρηστών"
+	"@metadata": {
+		"authors": [
+			"Omnipaedista"
+		]
+	},
+	"userthrottle-desc": "Παρεμπόδιση δημιουργίας χρηστών"
 }

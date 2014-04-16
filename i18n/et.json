@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Morel"
-        ]
-    },
-    "acct_creation_global_hard_throttle_hit": "Konto loomine on mõneks sekundiks automaatselt peatatud, et vältida massregistreerimisrünnakuid. Palun oota hetk ja uuenda siis brauseri lehekülge."
+	"@metadata": {
+		"authors": [
+			"Morel"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "Konto loomine on mõneks sekundiks automaatselt peatatud, et vältida massregistreerimisrünnakuid. Palun oota hetk ja uuenda siis brauseri lehekülge."
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "ChrisPtDe"
-        ]
-    },
-    "userthrottle-desc": "Limite la crèacion d’usanciérs."
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"userthrottle-desc": "Limite la crèacion d’usanciérs."
 }
