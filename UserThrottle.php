@@ -36,9 +36,7 @@ $wgExtensionCredits['other'][] = array(
 );
 
 $wgHooks['AbortNewAccount'][] = 'throttleGlobalHit';
-$dir = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['UserThrottle'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['UserThrottle'] = $dir . 'UserThrottle.i18n.php';
 
 $wgGlobalAccountCreationThrottle = array(
 	'min_interval' => 5,   // Hard minimum time between creations
