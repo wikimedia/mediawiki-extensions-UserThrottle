@@ -85,14 +85,24 @@ function throttleGlobalHit( $user ) {
 function throttleSoftAbort( $interval, $limit ) {
 	global $wgOut;
 	throttleDebug( "softAbort: hit soft_limit $limit in soft_time $interval", true );
-	$wgOut->addWikiText( wfMessage( 'acct_creation_global_soft_throttle_hit', $interval, $limit )->text() );
+	if ( method_exists( $wgOut, 'addWikiTextAsInterface' ) ) {
+		// MW 1.32+
+		$wgOut->addWikiTextAsInterface( wfMessage( 'acct_creation_global_soft_throttle_hit', $interval, $limit )->text() );
+	} else {
+		$wgOut->addWikiText( wfMessage( 'acct_creation_global_soft_throttle_hit', $interval, $limit )->text() );
+	}
 	return false;
 }
 
 function throttleHardAbort( $interval ) {
 	global $wgOut;
 	throttleDebug( "hardAbort: hit min_interval $interval", true );
-	$wgOut->addWikiText( wfMessage( 'acct_creation_global_hard_throttle_hit', $interval )->text() );
+	if ( method_exists( $wgOut, 'addWikiTextAsInterface' ) ) {
+		// MW 1.32+
+		$wgOut->addWikiTextAsInterface( wfMessage( 'acct_creation_global_hard_throttle_hit', $interval )->text() );
+	} else {
+		$wgOut->addWikiText( wfMessage( 'acct_creation_global_hard_throttle_hit', $interval )->text() );
+	}
 	return false;
 }
 
