@@ -51,15 +51,16 @@ $wgGlobalAccountCreationThrottle = array(
  * @static
  */
 function throttleGlobalHit( $user ) {
-	global $wgMemc, $wgDBname, $wgGlobalAccountCreationThrottle;
-	extract( $wgGlobalAccountCreationThrottle );
+	global $wgMemc, $wgGlobalAccountCreationThrottle;
+
+	$min_interval = $wgGlobalAccountCreationThrottle['min_interval'];
+	$soft_limit = $wgGlobalAccountCreationThrottle['soft_limit'];
+	$soft_time = $wgGlobalAccountCreationThrottle['soft_time'];
 
 	if ( $min_interval > 0 ) {
-		$key = "$wgDBname:acctcreate:global:hard";
-		$value = $wgMemc->incr( $key );
-		if ( !$value ) {
-			$wgMemc->set( $key, 1, $min_interval );
-		} else {
+		$key = $wgMemc->makeKey( 'acctcreate-global-hard' );
+		$wgMemc->clearLastError();
+		if ( !$wgMemc->add( $key, 1, $min_interval ) && !$wgMemc->getLastError() ) {
 			// Key should have expired, or we're too close
 			return throttleHardAbort( $min_interval );
 		}
@@ -67,11 +68,9 @@ function throttleGlobalHit( $user ) {
 	}
 
 	if ( $soft_limit > 0 ) {
-		$key = "$wgDBname:acctcreate:global:soft";
-		$value = $wgMemc->incr( $key );
-		if ( !$value ) {
-			$wgMemc->set( $key, 1, $soft_time );
-		} elseif ( $value > $soft_limit ) {
+		$key = $wgMemc->makeKey( 'acctcreate-global-soft' );
+		$value = $wgMemc->incrWithInit( $key, $soft_time );
+		if ( $value > $soft_limit ) {
 			// All registrations block until the limit rolls out
 			return throttleSoftAbort( $soft_time, $soft_limit );
 		}
